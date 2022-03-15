@@ -1,0 +1,21 @@
+{
+  "name": "RickDBCN/TielbekeConnect",
+  "description": "PHP client to connect to the Tielbeke API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rick de Boer",
+      "email": "r.deboer@soer.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "RickDB\\Tielbeke\\": "src"
+    }
+  }
+}
