@@ -1,6 +1,7 @@
 {
   "name": "rickdbcn/tielbekeconnect",
   "description": "PHP client to connect to the Tielbeke API",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
